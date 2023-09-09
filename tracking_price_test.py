@@ -36,20 +36,52 @@ def get_price(html,df):
     soup = BeautifulSoup(html, "lxml")
     if x == 'sunspel':
         el = soup.select_one(".prd-Detail_Price")
-    #elif x == 'MackWeldon':
-        #el = soup.select_one(".productInfo__priceBox")
+
+        #INCASE can't find price
+        if el == None:          
+            return None
+    elif x == 'kentwang':
+    
+        el = soup.select_one(".price")
+        if el == None:
+            price = -1 
+            return price
+    elif x == 'petermillar':
+        print(soup)
+
+        el = soup.select_one(".attributes")
+        print(el)
+        if el == None:
+            price = -1 
+            return price    
+            #<span class="value font-weight-normal" itemprop="price" content="115.00">
+        
+        
+            #$115
+
+
+        
     price = Price.fromstring(el.text)
     return price.amount_float
-
+    
 def process_products(df):
     updated_products = []
 
     for product in df.to_dict("records"):
-        html = get_response(product["url"])    
-        product["price"] = get_price(html,product)
-        product["alert"] = product["price"] < product["alert_price"]
-        product["date"] = datetime.date.today()
-        updated_products.append(product)
+        r = requests.get(product["url"])    
+        #check url
+        if r.status_code == 200:
+            html = get_response(product["url"])    
+            product["price"] = get_price(html,product)
+            #product["alert"] = product["price"] < product["alert_price"]
+            product["date"] = datetime.date.today()
+            updated_products.append(product)
+        else:           
+            product["price"] = -1
+            product["date"] = datetime.date.today()
+            updated_products.append(product)
+
+
     return pd.DataFrame(updated_products)
     
     
