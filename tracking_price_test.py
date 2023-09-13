@@ -53,6 +53,18 @@ def get_price(html,df):
         if el == None:
             price = -1 
             return price
+            
+    elif x == 'scottbarber':
+        el = soup.select_one(".current_price")
+        if el == None:
+            price = -1 
+            return price
+            
+    elif x == 'sidmashburn':
+        el = soup.select_one(".product-single__price")
+        if el == None:
+            price = -1 
+            return price
 
     elif x == 'petermillar':
         url = df['url']

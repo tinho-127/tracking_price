@@ -54,6 +54,19 @@ def get_price(html,df):
         if el == None:
             price = -1 
             return price
+    
+    elif x == 'scottbarber':
+        el = soup.select_one(".current_price")
+        if el == None:
+            price = -1 
+            return price
+            
+    elif x == 'sidmashburn':
+        el = soup.select_one(".product-single__price")
+        if el == None:
+            price = -1 
+            return price
+            
             
     elif x == 'petermillar':
         url = df['url']
@@ -99,9 +112,10 @@ def get_price(html,df):
     
 def process_products(df):
     updated_products = []
-    n = 0
+    n = 1
     for product in df.to_dict("records"):
         r = requests.get(product["url"])    
+        print("\nPRODUCT " + str(n))
         #check url
         if r.status_code == 200:
             html = get_response(product["url"])    
