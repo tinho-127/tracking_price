@@ -60,8 +60,44 @@ def get_price(html,df):
             price = -1 
             return price
             
+    elif x == 'tedbaker':
+        el = soup.select_one(".product-pricesstyled__Price-sc-1hhcrv3-1")
+        if el == None:
+            price = -1 
+            return price
+
+    elif x == 'orlebarbrown':
+        el = soup.select_one(".pricing-product_sales_price")
+        if el == None:
+            price = -1 
+            return price        
+      
     elif x == 'sidmashburn':
         el = soup.select_one(".product-single__price")
+        if el == None:
+            price = -1 
+            return price
+
+    elif x == 'hackett':
+        url = df['url']
+        driver = webdriver.Chrome()
+        driver.get(url)
+        sleep(10)   
+        content = driver.page_source
+        soup = BeautifulSoup(content)
+        el = soup.select_one(".o-price__sales")
+        if el == None:
+            price = -1 
+            return price
+
+    elif x == 'jamesperse':
+        url = df['url']
+        driver = webdriver.Chrome()
+        driver.get(url)
+        sleep(45)   
+        content = driver.page_source
+        soup = BeautifulSoup(content)
+        el = soup.select_one(".new-price")
         if el == None:
             price = -1 
             return price

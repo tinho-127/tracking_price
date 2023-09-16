@@ -1,19 +1,5 @@
 name,product,color,price,date,url,code
-scottbarber,PIMA PIQUE POLO, PUNCH,115.0,2023-09-11,200,https://scottbarber.com/collections/pima-polos-and-tees/products/pima-pique-polo-punch?variant=40520711897111
-scottbarber,PIMA PIQUE POLO, APRICOT,115.0,2023-09-11,200,https://scottbarber.com/collections/pima-polos-and-tees/products/pima-pique-polo-apricot?variant=40520711503895
-scottbarber,PIMA PIQUE POLO, BLACK,115.0,2023-09-11,200,https://scottbarber.com/collections/pima-polos-and-tees/products/black-pima-pique-short-sleeve-polo?variant=40103288602647
-scottbarber,PIMA PIQUE POLO, OFF WHITE,115.0,2023-09-11,200,https://scottbarber.com/collections/pima-polos-and-tees/products/white-pima-pique-short-sleeve-two-button-polo?variant=40103289028631
-scottbarber,PIMA PIQUE POLO, SUN,115.0,2023-09-11,200,https://scottbarber.com/collections/pima-polos-and-tees/products/pima-pique-polo-sun?variant=40520711241751
-scottbarber,PIMA PIQUE POLO, SKY BLUE,115.0,2023-09-11,200,https://scottbarber.com/collections/pima-polos-and-tees/products/sky-blue-pima-pique-short-sleeve-two-button-polo?variant=40103289618455
-scottbarber,PIMA PIQUE POLO, MIDNIGHT,115.0,2023-09-11,200,https://scottbarber.com/collections/pima-polos-and-tees/products/pima-pique-polo-midnight?variant=40520709177367
-sidmashburn,Short-Sleeved Polo, Sky Blue Oxford Pique,125.0,2023-09-11,200,https://shopmashburn.com/products/sid-mashburn-short-sleeved-polo-sky-blue-oxford-pique-s51498
-sidmashburn,Short-Sleeved Polo, White Terry,150.0,2023-09-11,200,https://shopmashburn.com/products/sid-mashburn-short-sleeved-polo-white-terry-s70335
-sidmashburn,Short-Sleeved Polo, Navy Terry,150.0,2023-09-11,200,https://shopmashburn.com/products/sid-mashburn-short-sleeved-polo-navy-terry-s70334
-sidmashburn,Short-Sleeved Polo, White Pima Pique,115.0,2023-09-11,200,https://shopmashburn.com/products/sid-mashburn-short-sleeved-polo-white-pima-pique-s33504
-sidmashburn,Short-Sleeved Polo, Dark Spurce Pima Pique,115.0,2023-09-11,200,https://shopmashburn.com/products/sid-mashburn-short-sleeved-polo-dark-spruce-pima-pique-s54070
-sidmashburn,Short-Sleeved Polo, Pale Blue Pima Pique,115.0,2023-09-11,200,https://shopmashburn.com/products/sid-mashburn-short-sleeved-polo-pale-blue-pima-pique-s33505
-sidmashburn,Short-Sleeved Polo, Light BluePima Pique,115.0,2023-09-11,200,https://shopmashburn.com/products/sid-mashburn-short-sleeved-polo-light-blue-pima-pique-s54992
-sidmashburn,Short-Sleeved Polo, Coal Pima Pique,115.0,2023-09-11,200,https://shopmashburn.com/products/sid-mashburn-short-sleeved-polo-coal-pima-pique-s51497
-sidmashburn,Short-Sleeved Polo, Canary Pima Pique,115.0,2023-09-11,200,https://shopmashburn.com/products/sid-mashburn-short-sleeved-polo-canary-pima-pique-s68634
-sidmashburn,Short-Sleeved Polo, Olive Dark Pima Pique,125.0,2023-09-11,200,https://shopmashburn.com/products/sid-mashburn-short-sleeved-polo-olive-dark-oxford-pique-s71744
-sidmashburn,Short-Sleeved Polo, Merlot Dark Pima Pique,125.0,2023-09-11,200, https://shopmashburn.com/products/sid-mashburn-short-sleeved-polo-merlot-dark-oxford-pique-s71036
+jamesperse, SUEDED JERSEY POLO ,White,135.0,2023-09-15,200,https://www.jamesperse.com/collections/mens-polos-novelty-tops/products/sueded-jersey-polo-white?variant=39641880297636#
+hackett, COTTON POLO SHIRT WITH HARRY LOGO,Win Purple,-1,2023-09-15,200,https://www.hackett.com/intl/cotton-polo-shirt-with-harry-logo-HM563193.html?dwvar_HM563193_color=490&cgid=hktrowmc9
+hackett, COTTON POLO SHIRT WITH HARRY LOGO,Win Purple,-1,2023-09-15,200,https://www.hackett.com/intl/cotton-polo-shirt-with-harry-logo-HM563193.html?dwvar_HM563193_color=490&cgid=hktrowmc9
+hackett, COTTON POLO SHIRT WITH HARRY LOGO,Win Purple,-1,2023-09-15,200,https://www.hackett.com/intl/cotton-polo-shirt-with-harry-logo-HM563193.html?dwvar_HM563193_color=595
