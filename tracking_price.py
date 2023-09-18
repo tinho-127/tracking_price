@@ -83,7 +83,7 @@ def get_price(html,df):
         url = df['url']
         driver = webdriver.Chrome()
         driver.get(url)
-        sleep(10)   
+        sleep(45)   
         content = driver.page_source
         soup = BeautifulSoup(content)
         el = soup.select_one(".new-price")
@@ -107,7 +107,7 @@ def get_price(html,df):
         url = df['url']
         driver = webdriver.Chrome()
         driver.get(url)
-        sleep(10)
+        sleep(30)
         content = driver.page_source
         soup = BeautifulSoup(content)
         el = soup.select_one(".productInfo__priceOriginal")
@@ -119,7 +119,7 @@ def get_price(html,df):
         url = df['url']
         driver = webdriver.Chrome()
         driver.get(url)
-        sleep(10)
+        sleep(30)
         content = driver.page_source
         soup = BeautifulSoup(content)
         el = soup.select_one(".styles_PriceComparison__price__zWBmZ")
